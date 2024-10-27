@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+
+<style>
+    .whole{
+        display: grid;
+        place-items: center;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 500px;
+        text-align: center;
+
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f2f5;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        margin: 5px;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    #loginButton, #logoutButton {
+        margin-top: 10px;
+    }
+
+    p {
+        margin-top: 10px;
+        color: #555;
+    }
+</style>
+
+<body>
+<div class="whole">
+    <p id="count"></p>
+
+    <div class="second">
+        <form id="pageIdForm">
+            <label for="pageID">Ticket ID: </label>
+            <input type="text" id="pageID" name="pageID">
+            <button id="pageInfoButton" type="submit">Show information about ticket</button>
+        </form>
+    </div>
+    <div class="third">
+        <button id="loginButton">Login</button>
+        <button id="logoutButton">Log out</button>
+    </div>
+    <h4>Important notice:</h4>
+    <h5>Information about tickets can be accessed by filling the text box Ticket ID: and pressing "Show information about ticket" or by going to https://web2-lab1-gt2e.onrender.com/{Ticket ID}</h5>
+</div>
+
+
+
+<script type="text/javascript" src="/home_script.js"></script>
+
+</body>
+</html>

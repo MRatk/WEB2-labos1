@@ -1,0 +1,11 @@
+# Environment variables
+.env
+DATABASE_URL=postgres://postgres:bazepodataka@localhost:5432/qr_code
+AUTH0_DOMAIN=dev-1toh3papmv4d6yrs.us.auth0.com
+CLIENT_ID=hE3SN9YUoqSH25TDTx5x1j7X1bV6kEgy
+CLIENT_SECRET=IamPB2PLLmAz5wacyoTnIEtTENKJhm1cjPWzE5niDpav4Znn2SoHgJQwdfPjeuqa
+AUDIENCE=https://myapp/api
+PORT=3000
+SECRET=3e92c5c8d7b8eaf1c7e6f25c3b867b1f6f4c58e04e76b147c4a04e52a76d3fd4
+M2M_CLIENT_ID=scbCy2l4SkaxO5tYJ609DAL01iQCDLKd
+M2M_CLIENT_SECRET=mqmt0pItCZUbNweHTi1yCxidSFOsRPb9IrKX1-4Qs56tS4-UgXapMla0vnIxOYcW
